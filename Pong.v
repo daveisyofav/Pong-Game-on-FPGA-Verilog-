@@ -138,7 +138,7 @@ parameter STRAIGHT = 0;
 parameter UP = 1;
 parameter DOWN = 2;
 reg [2:0] VERTICALSTATE = STRAIGHT;
-// also create a clock divider so that the ball doesn't fly at teh fucking speed of light
+// also create a clock divider so that the ball doesn't fly at the speed of light
 reg r_tenth = 0;
 reg [14:0] r_clk_divider = 0;
 parameter DIVIDER_MAX = 32750; // increase to make the ball move slower
